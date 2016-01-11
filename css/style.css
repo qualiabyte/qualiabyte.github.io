@@ -1,0 +1,119 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Arvo);
+html {
+  height: 100%;
+}
+body {
+  margin: 0 0;
+  min-height: 100%;
+  background: #fff;
+  background-image: radial-gradient(circle 1800px at 1500px top, #FFF, #00D0B9 0%, #4C004C);
+  background-attachment: fixed;
+  font-family: 'Lato', 'Roboto', 'Oxygen', 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  font-family: 'Arvo', 'Droid Serif', 'Lora', 'Slabo 27px', serif;
+}
+a {
+  color: #9E45FF;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+p {
+  text-align: left;
+}
+.content-wide {
+  width: 100%;
+  padding: 1px 0;
+  border-top: 2px solid #f08;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.3);
+}
+.content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.content-section {
+  padding: 5px 20px;
+  border: 0px solid #888;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.content-section {
+  margin: 10px 0;
+}
+.content-section > h2 {
+  text-align: left;
+  margin-bottom: 0;
+}
+.content-section > h2 + p {
+  margin-top: 0;
+}
+.content-section.dark {
+  background: rgba(0, 0, 0, 0.6);
+}
+.content-section.dark > h2 {
+  color: #fff;
+}
+.content-section.dark > p {
+  color: #ddd;
+}
+.content-section.dark portfolio-project {
+  background: none;
+  color: #fff;
+}
+.header {
+  text-align: center;
+}
+.header-photo {
+  margin: 5px auto;
+}
+.header-text {
+  margin: 0 0 10px 0px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.header-fullname {
+  margin: 0px;
+  color: #fff;
+}
+.header-username,
+.header-username a {
+  margin: 0;
+  color: #ccc;
+}
+.project-list {
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+.project-list .project-item {
+  float: left;
+  display: inline;
+  width: 49%;
+}
+.project-list .project-item:nth-child(odd) {
+  margin: 4px 2px 0 0;
+}
+.project-list .project-item:nth-child(even) {
+  margin: 4px 0 0 2px;
+}
+portfolio-project {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  text-align: left;
+}
+portfolio-project .project-header {
+  padding: 0;
+}
+portfolio-project .project-name {
+  text-align: left;
+}
+portfolio-project .project-footer {
+  padding: 0;
+}
