@@ -1,18 +1,18 @@
 var current = [
   {
     name: "Mukei Dolphin",
-    desc: "",
+    desc: "An action-adventure game featuring a dolphin with special powers!",
     image: "",
     url: "https://github.com/qualiabyte/mukei-dolphin",
-    tools: [],
+    tools: ['Unity', 'C#', 'Cg Shaders'],
     tags: []
   },
   {
     name: "Uta Diary",
-    desc: "",
+    desc: "A journal and poetic diary for mobile devices.",
     image: "",
     url: "https://github.com/qualiabyte/uta-nikki",
-    tools: [],
+    tools: ['JavaScript', 'Angular', 'Ionic Framework', 'Android'],
     tags: []
   }
 ];
@@ -20,66 +20,66 @@ var current = [
 var portfolio = [
   {
     name: "Argumenta",
-    desc: "",
+    desc: "A platform for social argument collaboration.",
     image: "",
     url: "http://blog.argumenta.io",
-    tools: [],
+    tools: ['CoffeeScript', 'Node', 'Postgres', 'Express', 'Jade', 'Stylus', 'jQuery', 'Underscore'],
     tags: []
   },
   {
     name: "Worldlines",
-    desc: "",
+    desc: "An interactive visualization of special relativity.",
     image: "",
     url: "https://worldlines.sourceforge.net",
-    tools: [],
+    tools: ['Java', 'Processing', 'OpenGL'],
     tags: []
   },
   {
     name: "Coinlens",
-    desc: "",
+    desc: "A suite of minimalist Bitcoin widgets.",
     image: "",
     url: "https://github.com/qualiabyte/coinlens",
-    tools: [],
+    tools: ['JavaScript', 'React', 'jQuery', 'Bitcoin'],
     tags: []
   },
   {
     name: "Open Source Economy",
-    desc: "",
+    desc: "A decentralised payment ecosystem for open source technology and culture with a \"not-for-loss\" license.",
     image: "",
     url: "https://github.com/qualiabyte/open-source-economy",
-    tools: [],
+    tools: ['Ethereum', 'Solidity'],
     tags: []
   },
   {
     name: "Super Satoshi Bros",
-    desc: "",
+    desc: "A mashup of Bitcoin blockchain data with the original Super Mario Bros.",
     image: "",
     url: "https://github.com/qualiabyte/super-satoshi-bros",
-    tools: [],
+    tools: ['JavaScript', 'Bitcoin', 'NES'],
     tags: []
   },
   {
-    name: "Creamscript",
-    desc: "",
+    name: "CreamScript",
+    desc: "A CoffeeScript-like language that compiles to C++.",
     image: "",
     url: "https://github.com/qualiabyte/creamscript",
-    tools: [],
+    tools: ['C++', 'CreamScript'],
     tags: []
   },
   {
     name: "Ethereum Contracts",
-    desc: "",
+    desc: "A collection of contracts for <a href=\"https://ethereum.org\">Ethereum</a> &mdash; including a Notary, ObjectDB, and Keystore.",
     image: "",
     url: "https://github.com/qualiabyte/ethereum-contracts",
-    tools: [],
+    tools: ['Python', 'Serpent', 'LLL'],
     tags: []
   },
   {
     name: "Postgres Nest Transaction",
-    desc: "",
+    desc: "Nest transactions easily with PostgreSQL and Node.js.",
     image: "",
-    url: "https://github.com/qualiabyte/pg-nest-transaction",
-    tools: [],
+    url: "https://github.com/qualiabyte/postgres-nest-transaction",
+    tools: ['CoffeeScript', 'Postgres', 'Node'],
     tags: []
   },
   {
@@ -87,7 +87,7 @@ var portfolio = [
     desc: "Sweetens <a href=\"https://jashkenas.github.io/docco/\">docco</a> output with syntax highlighted JSDoc and Codo tags.",
     image: "",
     url: "https://github.com/qualiabyte/sweeten-docco",
-    tools: [],
+    tools: ['CoffeeScript', 'Bash', 'JSDoc', 'Codo'],
     tags: []
   }
 ];
