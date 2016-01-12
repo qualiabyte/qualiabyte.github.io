@@ -67,6 +67,12 @@ p {
   background: none;
   color: #fff;
 }
+.content-section.dark portfolio-project .project-name a {
+  color: #9E45FF;
+}
+.content-section.dark portfolio-project .project-tools {
+  color: #aaa;
+}
 .header {
   text-align: center;
 }
@@ -102,6 +108,13 @@ p {
 .project-list .project-item:nth-child(even) {
   margin: 4px 0 0 2px;
 }
+.project-list .project-item:nth-child(even)::after
+{
+  content: ".";
+  visibility: hidden;
+  display: block;
+  clear: left;
+}
 portfolio-project {
   display: inline-block;
   width: 100%;
@@ -117,3 +130,7 @@ portfolio-project .project-name {
 portfolio-project .project-footer {
   padding: 0;
 }
+portfolio-project .project-tools {
+  color: #888;
+}
+portfolio-project .project-tags {}
