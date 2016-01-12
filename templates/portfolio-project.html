@@ -2,7 +2,7 @@
   <h1 class="project-name"><a href="{{project.url}}">{{project.name}}</a></h1>
   <img class="project-image" src="{{project.image}}" alt="Image for {{project.name}}">
 </header>
-<p class="project-desc" ng-bind="project.desc"></p>
+<p class="project-desc" ng-bind-html="project.desc"></p>
 <footer class="project-footer">
   <span class="project-tools" ng-bind="project.tools | joinArray"></span>
   <span class="project-tags" ng-bind="project.tags | joinArray"></span>
