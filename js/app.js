@@ -1,3 +1,3 @@
-angular.module('portfolio', ['ui.router', 'portfolio.controllers', 'portfolio.directives'])
+angular.module('portfolio', ['ngSanitize', 'ui.router', 'portfolio.controllers', 'portfolio.directives'])
 
 .config(function($stateProvider, $urlRouterProvider) {});
