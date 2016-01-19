@@ -1,6 +1,8 @@
 <header class="project-header">
   <h1 class="project-name"><a href="{{project.url}}">{{project.name}}</a></h1>
-  <img class="project-image" src="{{project.image}}" alt="Image for {{project.name}}">
+  <div class="project-image-container">
+    <img class="project-image" src="{{project.image}}" alt="Image for {{project.name}}">
+  </div>
 </header>
 <p class="project-desc" ng-bind-html="project.desc"></p>
 <footer class="project-footer">

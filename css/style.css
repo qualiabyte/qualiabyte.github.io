@@ -104,16 +104,10 @@ p {
 }
 .project-list .project-item:nth-child(odd) {
   margin: 4px 2px 0 0;
+  clear: left;
 }
 .project-list .project-item:nth-child(even) {
   margin: 4px 0 0 2px;
-}
-.project-list .project-item:nth-child(even)::after
-{
-  content: ".";
-  visibility: hidden;
-  display: block;
-  clear: left;
 }
 portfolio-project {
   display: inline-block;
@@ -126,6 +120,15 @@ portfolio-project .project-header {
 }
 portfolio-project .project-name {
   text-align: left;
+}
+portfolio-project .project-image-container {
+  width: 370px;
+  height: 150px;
+  overflow-y: hidden;
+}
+portfolio-project .project-image {
+  width: 100%;
+  height: auto;
 }
 portfolio-project .project-footer {
   padding: 0;
