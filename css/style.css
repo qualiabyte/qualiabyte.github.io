@@ -9,6 +9,7 @@ body {
   background-image: radial-gradient(circle 1800px at 1500px top, #FFF, #00D0B9 0%, #4C004C);
   background-attachment: fixed;
   font-family: 'Lato', 'Roboto', 'Oxygen', 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
