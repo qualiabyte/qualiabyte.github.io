@@ -10,8 +10,8 @@ var current = [
   {
     name: "Uta Diary",
     desc: "A journal and poetic diary for mobile devices.",
-    image: "images/uta-diary.png",
-    url: "https://github.com/qualiabyte/uta-nikki",
+    image: "images/uta-diary.svg",
+    url: "https://github.com/qualiabyte/uta-diary",
     tools: ['JavaScript', 'Angular', 'Ionic Framework', 'Android'],
     tags: []
   }
