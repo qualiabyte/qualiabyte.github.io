@@ -9,11 +9,15 @@ var current = [
   },
   {
     name: "Uta Diary",
-    desc: "A journal and poetic diary for mobile devices.",
+    desc: 'A magical journal for mobile devices!<br>Now available for Android.',
     image: "images/uta-diary.svg",
     url: "https://github.com/qualiabyte/uta-diary",
     tools: ['JavaScript', 'Angular', 'Ionic Framework', 'Android'],
-    tags: []
+    tags: [],
+    postscript:
+        '<a href="https://play.google.com/apps/testing/com.ionicframework.utanikki207884">'
+      + '   <img class="badge" src="https://play.google.com/intl/en_us/badges/images/badge_new.png" style="border: 10px solid blue; margin: 10px 0;">'
+      + '</a>',
   }
 ];
 

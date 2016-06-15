@@ -141,3 +141,6 @@ portfolio-project .project-tools {
   color: #888;
 }
 portfolio-project .project-tags {}
+portfolio-project .project-postscript {
+  margin: 1em 0 0;
+}
