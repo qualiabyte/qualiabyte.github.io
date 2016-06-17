@@ -15,7 +15,7 @@ var current = [
     tools: ['JavaScript', 'Angular', 'Ionic Framework', 'Android'],
     tags: [],
     postscript:
-        '<a href="https://play.google.com/apps/testing/com.ionicframework.utanikki207884">'
+        '<a href="https://play.google.com/store/apps/details?id=com.ionicframework.utanikki207884">'
       + '   <img class="badge" src="https://play.google.com/intl/en_us/badges/images/badge_new.png" style="border: 10px solid blue; margin: 10px 0;">'
       + '</a>',
   }
