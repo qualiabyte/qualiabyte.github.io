@@ -26,7 +26,7 @@ var portfolio = [
     name: "Argumenta",
     desc: "A platform for social argument collaboration.",
     image: "images/argumenta.png",
-    url: "http://blog.argumenta.io",
+    url: "https://argumenta.github.io",
     tools: ['CoffeeScript', 'Node', 'Postgres', 'Express', 'Jade', 'Stylus', 'jQuery', 'Underscore'],
     tags: []
   },
